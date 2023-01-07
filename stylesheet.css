@@ -136,6 +136,8 @@ header nav {
   display: block;
 }
 
+/* Landing Page Section */
+
 .landing-section{
     padding: 2% 7% 2% 7%;
 }
@@ -165,6 +167,8 @@ header nav {
     font-size: 12px;
   }
 
+  /* What We Do Section */
+
   .what-we-do-section{
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -176,9 +180,10 @@ header nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: 900;
+    padding-bottom: 1em;
   }
 
-  .what-we-do-content{
+  .what-we-do-title-content{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -188,12 +193,22 @@ header nav {
     color: #646464;
   }
 
-  .what-we-do-content p{
-    font-size: 17.6px;
+  .what-we-do-title-content p{
+    font-size: 1.2em;
     line-height: 1.7em;
+    padding-top: 1em;
   }
 
   .fa-mobile-screen-button{
     color: black;
     font-size: 1.5rem;
   }
+
+  /* What We Do Content */
+
+   .what-we-do-content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+   }
