@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 header a {
@@ -145,7 +146,6 @@ header nav {
     margin-top: 20px;
     line-height: 1.3em;
     font-weight: 800;
-    font-family: 'Rajdhani', sans-serif;
 }
 
 .landing-section h2{
@@ -165,10 +165,17 @@ header nav {
     font-size: 12px;
   }
 
+  .what-we-do-section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .what-we-do-title{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 1.1em;
+    font-weight: 900;
   }
 
   .what-we-do-content{
@@ -183,6 +190,7 @@ header nav {
 
   .what-we-do-content p{
     font-size: 17.6px;
+    line-height: 1.7em;
   }
 
   .fa-mobile-screen-button{
