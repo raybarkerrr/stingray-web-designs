@@ -171,7 +171,7 @@ header nav {
 
   .what-we-do-section{
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
   }
 
   .what-we-do-title{
@@ -199,16 +199,42 @@ header nav {
     padding-top: 1em;
   }
 
-  .fa-mobile-screen-button{
+  .fa-laptop-code{
+    font-size: 2rem;
     color: black;
-    font-size: 1.5rem;
   }
 
   /* What We Do Content */
 
-   .what-we-do-content{
+   .what-we-do-mini{
     display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding: 2% 6% 2% 6%;
    }
+
+   .what-we-do-content{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+   }
+
+   .what-we-do-content h3{
+    font-size: 1.2em;
+    font-weight: 900;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+
+   .what-we-do-content p{
+    font-size: 1.2em;
+    line-height: 1.7em;
+  }
+
+  .fa-mobile-screen-button{
+    color: black;
+    font-size: 3.5rem;
+  }
+
