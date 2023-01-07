@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header {
+  padding: 0 20px;
+  background-color: #565759;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo img{
+    width: 75px;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: white;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#home,
+#about,
+#contact {
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+#home {
+  border: 1px solid #1bf5af;
+}
+
+#about {
+  border: 1px solid #1bf5af;
+}
+
+#contact {
+  border: 1px solid #1bf5af;
+}
+
+#about a {
+  color: #1bf5af;
+}
+
+#home a {
+  color: #1bf5af;
+}
+
+#contact a {
+  color: #1bf5af;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #565759;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+header nav {
+  display: none;
+}
+
+#hamburger-icon {
+  display: block;
+}
+
+
+.landing-section h1{
+    font-size: 1.8em;
+    margin-top: 20px;
+    line-height: 1.3em;
+    font-weight: 800;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.landing-section h2{
+    font-size: .9em;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+  
