@@ -20,7 +20,7 @@ header a {
 
 header {
   padding: 0 20px;
-  background-color: rgba(12, 197, 239, 1);
+  background-color: rgba(12, 181, 239, 1);
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -190,6 +190,11 @@ header nav {
     font-size: 1.1em;
     font-weight: 900;
     padding-bottom: 1em;
+  }
+
+  .what-we-do-title h1{
+    margin-right: 10px;
+    color: rgba(12, 181, 239, 1);
   }
 
   .what-we-do-title-content{
