@@ -12,13 +12,15 @@ body {
   font-family: 'Rajdhani', sans-serif;
 }
 
+/* Header Section */
+
 header a {
   text-decoration: none;
 }
 
 header {
   padding: 0 20px;
-  background-color: #565759;
+  background-color: rgba(12, 197, 239, 1);
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -138,6 +140,9 @@ header nav {
 
 /* Landing Page Section */
 
+
+/* Landing Section */
+
 .landing-section{
     padding: 2% 7% 2% 7%;
 }
@@ -165,6 +170,10 @@ header nav {
     background-color: #e74c3c;
     color: white;
     font-size: 12px;
+  }
+
+  .landing-container img{
+    width: 100%;
   }
 
   /* What We Do Section */
