@@ -213,9 +213,8 @@ header nav {
     padding-top: 1em;
   }
 
-  .fa-laptop-code{
-    font-size: 2rem;
-    color: black;
+  .what-we-do-content img{
+    width: 30%;
   }
 
   /* What We Do Content */
@@ -228,6 +227,7 @@ header nav {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 2% 6% 2% 6%;
+
    }
 
    .what-we-do-content{
@@ -245,6 +245,7 @@ header nav {
    .what-we-do-content p{
     font-size: 1.2em;
     line-height: 1.7em;
+    color: #646464;
   }
 
   .fa-mobile-screen-button{
