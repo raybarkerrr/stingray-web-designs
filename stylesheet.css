@@ -141,6 +141,7 @@ header nav {
 /* Landing Page Section */
 
 
+
 /* Landing Section */
 
 .landing-section{
@@ -227,7 +228,6 @@ header nav {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 2% 6% 2% 6%;
-
    }
 
    .what-we-do-content{
@@ -253,7 +253,66 @@ header nav {
     font-size: 3.5rem;
   }
 
+  /* Buiness Model Section */
+
+  .business-model-section{
+    padding: 2% 7% 2% 7%;    
+  }
 
   .business-model-title img{
     width: 100%;
+  }
+
+  .business-model-title h1{
+    font-size: 1.3em;
+  }
+
+  .business-model-title p{
+    font-family: 'Ubuntu';
+    padding-top: 1.5rem;
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  .business-model-title span{
+    color: #0092ca;
+  }
+
+  .business-model-check{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding: 2% 6% 2% 6%;    
+  }
+
+  .list-item-top{
+    display: flex;
+    padding-bottom: 1rem;
+  }
+
+  .list-item-top h1{
+    padding-top: .5rem;
+    font-size: 1.2rem;
+    padding-left: .3rem;
+  }
+
+  .list-item-bottom{
+    padding-left: 2.1rem;
+    padding-bottom: 2rem;
+  }
+
+  .business-model-list{
+    flex-direction: row;
+    padding-top: 2.5rem;
+  }
+
+  .business-model-list img{
+    width: 12%;
+  }
+
+  .list-item-bottom{
+    font-size: 1.2rem;
   }
