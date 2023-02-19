@@ -300,8 +300,8 @@ header nav {
   }
 
   .list-item-bottom{
-    padding-left: 2.1rem;
-    padding-bottom: 2rem;
+    padding-left: 2.4rem;
+    padding-bottom: 3rem;
   }
 
   .business-model-list{
@@ -316,3 +316,27 @@ header nav {
   .list-item-bottom{
     font-size: 1.2rem;
   }
+
+  /* My Portfolio Section */
+
+  .my-portfolio{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding: 2% 6% 2% 6%;    
+  }
+
+  .portfolio-title{
+    text-align: center;
+  }
+
+  .portfolio-card img{
+    width: 100%;
+  }
+
+  .portfolio-title span{
+    color:#0092ca;
+  }
+
+  
