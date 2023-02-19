@@ -331,12 +331,37 @@ header nav {
     text-align: center;
   }
 
+  .portfolio-card{
+    border-radius: 10%;
+    background-color: wheat;
+  }
+
   .portfolio-card img{
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
+
+  .portfolio-card h1{
+    padding-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .portfolio-card p{
+    padding-bottom: 1rem;
+  } 
 
   .portfolio-title span{
     color:#0092ca;
   }
 
-  
+  .form-button{
+    width: 5em;
+    width: 70%;
+    border-radius: 8px;
+    border: 0;
+    padding: .8em;
+    background-color: #1bf5af;
+    color: white;
+  }
