@@ -331,6 +331,7 @@ header nav {
 
   .portfolio-title{
     text-align: center;
+    padding-bottom: 2rem;
   }
 
   .portfolio-card{
@@ -367,4 +368,25 @@ header nav {
     padding: .8em;
     background-color: #0092ca;
     color: white;
+  }
+
+
+  /* For You Section */
+
+  .for-you-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .for-you-title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .for-you-title span{
+    color: #0092ca;
+  }
+
+  .for-you-content img{
+    width: 100%;
   }
