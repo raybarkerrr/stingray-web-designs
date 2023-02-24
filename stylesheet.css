@@ -20,7 +20,7 @@ header a {
 
 header {
   padding: 0 20px;
-  background-color: rgba(12, 181, 239, 1);
+  background-color: white;
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -89,7 +89,7 @@ ul li:hover {
 #hamburger-icon div {
   width: 35px;
   height: 3px;
-  background-color: white;
+  background-color: #071C42;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -146,6 +146,12 @@ header nav {
 
 .landing-section{
     padding: 2% 7% 2% 7%;
+    background: url("Photos/_Dark\ Blue\ and\ Cyan\ Modern\ Technology\ Pitch\ Deck\ Presentation.jpg"); 
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -154,6 +160,7 @@ header nav {
     margin-top: 20px;
     line-height: 1.3em;
     font-weight: 800;
+    color: white;
 }
 
 .landing-section h2{
@@ -161,6 +168,7 @@ header nav {
     line-height: 1.7em;
     margin-bottom: 30px;
     margin-top: 30px;
+    color: white;
 }
 
   .landing-section button{
@@ -174,7 +182,7 @@ header nav {
   }
 
   .landing-container img{
-    width: 100%;
+    width: 50%;
   }
 
   /* What We Do Section */
@@ -228,6 +236,7 @@ header nav {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 2% 6% 2% 6%;
+    background-color: #071C42;
    }
 
    .what-we-do-content{
@@ -436,4 +445,11 @@ header nav {
   .fa-brands{
     color: white;
     font-size: 2em;
+  }
+
+  @media only screen and (min-width: 1024px)  {
+
+    .landing-container img{
+      width: 20%;
+    }
   }
