@@ -20,7 +20,7 @@ header a {
 
 header {
   padding: 0 20px;
-  background-color: white;
+  background-color: rgba(12, 181, 239, 1);
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -89,7 +89,7 @@ ul li:hover {
 #hamburger-icon div {
   width: 35px;
   height: 3px;
-  background-color: #071C42;
+  background-color: white;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -138,40 +138,36 @@ header nav {
   display: block;
 }
 
-/* Landing Page Section */
-
-
-
 /* Landing Section */
 
-.landing-section{
-    padding: 2% 7% 2% 7%;
-    background: url("Photos/_Dark\ Blue\ and\ Cyan\ Modern\ Technology\ Pitch\ Deck\ Presentation.jpg"); 
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.landing-top{
+  padding-left: 15px;
 }
 
 
-.landing-section h1{
+.landing-bottom img{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.landing-top h1{
     font-size: 1.8em;
     margin-top: 20px;
     line-height: 1.3em;
-    font-weight: 800;
-    color: white;
 }
 
-.landing-section h2{
+.landing-top h2{
     font-size: .9em;
     line-height: 1.7em;
     margin-bottom: 30px;
     margin-top: 30px;
-    color: white;
 }
 
-  .landing-section button{
+  .landing-top button{
     width: 40%;
     border-radius: 8px;
     border: 0;
@@ -179,10 +175,6 @@ header nav {
     background-color: #e74c3c;
     color: white;
     font-size: 12px;
-  }
-
-  .landing-container img{
-    width: 50%;
   }
 
   /* What We Do Section */
@@ -199,21 +191,6 @@ header nav {
     font-size: 1.1em;
     font-weight: 900;
     padding-bottom: 1em;
-  }
-
-  svg {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .container {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    padding-bottom: 100%;
-    vertical-align: middle;
-    overflow: hidden;
   }
 
   .what-we-do-title h1{
@@ -251,7 +228,6 @@ header nav {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding: 2% 6% 2% 6%;
-    background-color: #071C42;
    }
 
    .what-we-do-content{
