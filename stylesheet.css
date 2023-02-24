@@ -201,6 +201,21 @@ header nav {
     padding-bottom: 1em;
   }
 
+  svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
   .what-we-do-title h1{
     margin-right: 10px;
     color: rgba(12, 181, 239, 1);
