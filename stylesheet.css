@@ -500,6 +500,18 @@ header nav {
     font-size: 2em;
   }
 
+  /* Contact Section */
+
+  .contact-image img{
+    width: 100%;
+  }
+
+  .line{
+    width: 5px ;
+    height: 43px;
+    background-color: #0092ca;
+  }
+
 
   @media only screen and (min-width: 1024px)  {
 
