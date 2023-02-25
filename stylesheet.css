@@ -154,10 +154,9 @@ header nav {
 }
 
 .landing-top h1{
-    font-size: 1.8em;
-    margin-top: 20px;
+    font-size: 36px;
+    margin-top: 50px;
     line-height: 1.3em;
-    
 }
 
 .landing-top h2{
@@ -166,6 +165,9 @@ header nav {
     margin-bottom: 30px;
     margin-top: 30px;
     font-family: 'Lato', sans-serif;
+    text-align: left;
+    padding-right: .5rem;
+
 }
 
   .landing-top button{
@@ -382,19 +384,92 @@ header nav {
     padding: 2% 7% 2% 7%;    
   }
 
-  /* About Page*/
+/* Contact Section */
 
   .contact-info{
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 2% 7% 2% 7%;    
   }
 
   .contact-info img{
     width: 60px;
   }
 
-  /* Footer Section */
+  .contact-info-bottom{
+    padding-left: 1rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+    /* Contact Page */
+
+    .contact-form-section{
+      text-align: center;
+      padding-top: 2rem;
+      font-family: 'Lato', sans-serif;
+    }
+  
+    .contact-form-title h1{
+      font-size: 1.6rem;
+      font-weight: lighter;
+      letter-spacing: .2rem;
+      color: #57595B;
+    }
+  
+    .contact-form-title h2{
+      font-size: 1.2rem;
+      letter-spacing: .1rem;
+      padding: .5rem;
+      color: #57595B;
+    }
+  
+    .contact-form-title p{
+      font-size: .8rem;
+      font-weight: lighter;
+      letter-spacing: .1rem;
+      color: #57595B;
+    }
+  
+    .form-labels{
+      background-color: #f1f1f1;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+    }
+  
+    .contact-form-section p{
+      padding: .5rem;
+    }
+  
+    .input-field{
+      width: 70%;
+      border-radius: 8px;
+      border: 0;
+      padding: .9em;
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    }
+  
+    .input-field-message{
+      width: 70%;
+      height: 150px;
+      border-radius: 8px;
+      resize: none;
+      border: 0;
+      padding: .8em;
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    }
+  
+    .form-button{
+      width: 5em;
+      width: 70%;
+      border-radius: 8px;
+      border: 0;
+      padding: .8em;
+      background-color: rgba(12, 181, 239, 1);
+      color: white;
+      cursor: pointer;
+    }
+
+      /* Footer Section */
 
   .footer-section{
     display: flex;
@@ -424,9 +499,6 @@ header nav {
     color: white;
     font-size: 2em;
   }
-
-
-
 
 
   @media only screen and (min-width: 1024px)  {
