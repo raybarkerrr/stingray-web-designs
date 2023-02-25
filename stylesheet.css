@@ -132,8 +132,14 @@ header nav {
 
 /* Landing Section */
 
+
 .landing-top{
   padding-left: 15px;
+}
+
+.landing-top span{
+  color: #0092ca;
+
 }
 
 
@@ -150,13 +156,15 @@ header nav {
     font-size: 1.8em;
     margin-top: 20px;
     line-height: 1.3em;
+    
 }
 
 .landing-top h2{
-    font-size: .9em;
+    font-size: 1em;
     line-height: 1.7em;
     margin-bottom: 30px;
     margin-top: 30px;
+    font-family: 'Lato', sans-serif;
 }
 
   .landing-top button{
@@ -297,7 +305,6 @@ header nav {
     padding-left: 2.4rem;
     padding-bottom: 3rem;
     font-family: 'Lato', sans-serif;
-
   }
 
   .business-model-list{
@@ -407,7 +414,9 @@ header nav {
 
   /* About Page */
 
-  
+
+
+
 
   @media only screen and (min-width: 1024px)  {
 
