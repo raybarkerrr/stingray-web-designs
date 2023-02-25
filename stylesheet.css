@@ -38,6 +38,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-family: 'Lato', sans-serif;
 }
 
 ul a {
