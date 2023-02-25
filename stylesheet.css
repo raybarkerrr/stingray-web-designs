@@ -382,6 +382,18 @@ header nav {
     padding: 2% 7% 2% 7%;    
   }
 
+  /* About Page*/
+
+  .contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info img{
+    width: 60px;
+  }
+
   /* Footer Section */
 
   .footer-section{
@@ -412,8 +424,6 @@ header nav {
     color: white;
     font-size: 2em;
   }
-
-  /* About Page */
 
 
 
