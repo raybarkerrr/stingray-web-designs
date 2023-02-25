@@ -54,36 +54,27 @@ ul li:hover {
 #contact {
   border-radius: 5px;
   padding: 5px 8px;
-}
-
-#home {
-  border: 1px solid #1bf5af;
-}
-
-#about {
-  border: 1px solid #1bf5af;
-}
-
-#contact {
-  border: 1px solid #1bf5af;
+  padding-left: 1.8em;
 }
 
 #about a {
-  color: #1bf5af;
+  color: black;
 }
 
 #home a {
-  color: #1bf5af;
+  color: black;
 }
 
 #contact a {
-  color: #1bf5af;
+  color: black;
 }
 
 #hamburger-icon {
   margin: auto 0;
   display: none;
   cursor: pointer;
+  font-size: 20px;
+  line-height: 1.6em;
 }
 
 #hamburger-icon div {
@@ -110,8 +101,8 @@ ul li:hover {
 
 .open .mobile-menu {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
   padding-top: 1rem;
 }
@@ -121,9 +112,9 @@ ul li:hover {
   position: absolute;
   top: 70px;
   left: 0;
-  height: 100vh;
+  height: 60vh;
   width: 100%;
-  background-color: #565759;
+  background-color: rgba(12, 181, 239, 1);
 }
 
 .mobile-menu li {
@@ -137,6 +128,7 @@ header nav {
 #hamburger-icon {
   display: block;
 }
+
 
 /* Landing Section */
 
@@ -272,6 +264,8 @@ header nav {
     padding-top: 1.5rem;
     font-size: 1.2em;
     line-height: 1.5em;
+    font-family: 'Lato', sans-serif;
+
   }
 
   .business-model-title span{
@@ -302,6 +296,8 @@ header nav {
   .list-item-bottom{
     padding-left: 2.4rem;
     padding-bottom: 3rem;
+    font-family: 'Lato', sans-serif;
+
   }
 
   .business-model-list{
