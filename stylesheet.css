@@ -394,6 +394,7 @@ header nav {
 
   .contact-info img{
     width: 60px;
+    padding-right: 1rem;
   }
 
   .contact-info-bottom{
@@ -406,14 +407,13 @@ header nav {
     .contact-form-section{
       text-align: center;
       padding-top: 2rem;
-      font-family: 'Lato', sans-serif;
     }
   
     .contact-form-title h1{
-      font-size: 1.6rem;
-      font-weight: lighter;
-      letter-spacing: .2rem;
-      color: #57595B;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      color: rgba(12, 181, 239, 1);
+      padding-bottom: 1rem;
     }
   
     .contact-form-title h2{
@@ -441,19 +441,19 @@ header nav {
     }
   
     .input-field{
-      width: 70%;
+      width: 80%;
       border-radius: 8px;
-      border: 0;
+      border: 1px solid #ccc;
       padding: .9em;
       box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     }
   
     .input-field-message{
-      width: 70%;
+      width: 80%;
       height: 150px;
       border-radius: 8px;
       resize: none;
-      border: 0;
+      border: 1px solid #ccc;
       padding: .8em;
       box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     }
