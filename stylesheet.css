@@ -181,14 +181,14 @@ header nav {
 
   .what-we-do-section{
     padding-top: 6rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
   }
 
   .what-we-do-title{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 20px;
     font-weight: 900;
     padding-bottom: 1em;
   }
