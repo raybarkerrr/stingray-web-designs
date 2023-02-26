@@ -146,7 +146,6 @@ header nav {
     margin: 1em auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     min-height: 100%;
   }
 
