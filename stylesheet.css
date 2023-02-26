@@ -460,7 +460,7 @@ header nav {
   
     .form-button{
       width: 5em;
-      width: 70%;
+      width: 25%;
       border-radius: 8px;
       border: 0;
       padding: .8em;
@@ -515,7 +515,40 @@ header nav {
 
   @media only screen and (min-width: 1024px)  {
 
-    .landing-container img{
-      width: 20%;
+    /* Landing Section */
+
+    .landing-section{
+      display: flex;
+      flex-direction: row;
     }
+
+    .landing-container img{
+      width: 50%;
+    }
+
+    .landing-top{
+      padding-left: 15px;
+    }
+  
+
+    .landing-bottom img{
+      position: relative;
+      width: 10%;
+    }
+    
+    .landing-top h1{
+        font-size: 48px;
+    }
+    
+    .landing-top h2{
+        font-size: 1.1em;
+    }
+    
+    .landing-top button{
+      width: 10%;
+      background-color: #e74c3c;
+    }
+    
+
+
   }
