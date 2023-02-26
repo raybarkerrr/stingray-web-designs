@@ -268,7 +268,7 @@ header nav {
     padding: 2% 7% 2% 7%;    
   }
 
-  .business-model-title img{
+  .business-image img{
     width: 100%;
   }
 
@@ -584,4 +584,26 @@ header nav {
   .img-right{
     width: 30%;
   }
+
+  /* What we do section */
+
+  .what-we-do-mini{
+    flex-direction: row;
+  }
+
+  .what-we-do-title-content{
+    padding: 2% 25% 2% 25%;
+  }
+
+  /*Business Model Section*/
+
+  .business-image img{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .business-model-title{
+  }
+
   }
