@@ -133,7 +133,7 @@ header nav {
 
       /* Home Container Section */
 
-    .bingle{
+    .landing-section{
       width: 100%;
       margin-top: 3em;
       padding-bottom: 100px;
@@ -141,28 +141,32 @@ header nav {
       position: relative;
     }
 
-  .bingle .container {
+  .landing-section .landing-container {
     max-width: 1198px;
     margin: 1em auto;
     display: flex;
-    flex-direction: columns;
     flex-wrap: wrap;
     justify-content: space-between;
     min-height: 100%;
   }
 
-  .bingle h1{
+  .landing-section h1{
     margin: 0 0 20px;
-    width: 350px;
+    width: 300px;
   }
 
-  .bingle h2{
+  .landing-section h2{
     width: 300px;
     font-size: 20px;
+    padding-bottom: 20px;
+    color: #646464;
+    font-family: 'Lato', sans-serif;
+
   }
 
   .feature-left {
     max-width: 40%;
+    padding-left: 12px;
   }
 
   .feature-left h1{
@@ -177,6 +181,10 @@ header nav {
       background-color: rgba(12, 181, 239, 1);
       color: white;
       cursor: pointer;
+  }
+
+  .img-right{
+    width: 80%;
   }
 
   /* What We Do Section */
@@ -517,46 +525,11 @@ header nav {
 
   @media only screen and (min-width: 1024px)  {
 
-    /* Landing Section */
 
-    .landing-section{
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      position: relative;
-    }
-
-    .landing-container img{
-      width: 50%;
-      padding: 50px;
-    }
-
-    .landing-top{
-      padding-left: 15px;
-    }
-  
-
-    .landing-bottom img{
-      position: relative;
-      width: 10%;
-    }
-    
-    .landing-top h1{
-        font-size: 48px;
-    }
-    
-    .landing-top h2{
-        font-size: 1.1em;
-    }
-    
-    .landing-top button{
-      width: 10%;
-      background-color: #e74c3c;
-    }
 
     /* Home Container Section */
 
-    .bingle{
+    .landing-section{
       width: 100%;
       margin-top: 3em;
       padding-bottom: 100px;
@@ -564,24 +537,20 @@ header nav {
       position: relative;
     }
 
-  .bingle .container {
-    max-width: 1198px;
-    margin: 1em auto;
-    display: flex;
-    flex-direction: columns;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    min-height: 100%;
-  }
+    .landing-container{
+      justify-content: center;
+    }
 
-  .bingle h1{
-    margin: 0 0 20px;
+
+  .landing-section h1{
     width: 500px;
   }
 
-  .bingle h2{
+  .landing-section h2{
     width: 500px;
+    font-size: 20px;
   }
+  
 
   .feature-left {
     max-width: 40%;
@@ -593,7 +562,7 @@ header nav {
   }
 
   .feature-left h1{
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .feature-left button{
@@ -607,17 +576,13 @@ header nav {
       cursor: pointer;
   }
 
-  .bingle img.section-feature{
+  .landing-section img.section-feature{
     display: block;
     width: 30%;
     height: auto;
   }
 
-  .section-background-feature.section-background-feature-wave  {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
+  .img-right{
+    width: 30%;
   }
   }
