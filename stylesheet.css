@@ -334,7 +334,7 @@ header nav {
   .my-portfolio{
     display: flex;
     flex-direction: column;
-    padding: 2% 6% 2% 6%;  
+    padding: 15% 6% 15% 6%;  
   }
   
   .card-break{
@@ -351,6 +351,11 @@ header nav {
     width: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+
+  .portfolio-card h1{
+    display: flex;
     text-align: center;
   }
 
@@ -383,10 +388,6 @@ header nav {
   }
 
   .for-you-content{
-    display: flex;
-    flex-direction: column;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
     padding: 2% 7% 2% 7%;    
   }
 
@@ -668,7 +669,27 @@ header nav {
   /* Portfolio Section*/
     .my-portfolio{
     display: flex;
-    flex-direction: column;
-    padding: 2% 6% 2% 6%;  
+    flex-direction: row;
   }
+
+  /* For You Section */
+
+
+  .for-you-title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .for-you-title span{
+    color: #0092ca;
+  }
+
+  .for-you-content{
+    text-align: center;
+    padding: 1% 30% 1% 30%;
+
+  }
+
+  
   }
