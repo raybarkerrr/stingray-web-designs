@@ -1,175 +1,259 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Stingray Web Design</title>
-        <meta name="author" content="Stingray Web Designs">
-        <meta name="description" content="Custom coded web design and web development">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="web development, website maker, website developer, small business usa, website maker near me, web developer near me, affordable websites, web design agency usa, custom websites usa, custom web developer usa, web design company usa">
-        <meta name="robots" content="noindex, nofollow">
-        <meta property="og:title" content="Small Business Web Design + Development">
-        <meta property="og:description" content="No page builders or WordPress - I offer 100% hand-coded websites with a mobile first design philosphy.">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.stingraywebdesigns.com/">
-        <meta property="og:image" content="">
-        <link rel="canonical" href="https://www.stingraywebdesigns.com/">
-        <link rel="icon" type="image/png" href="Photos/StingrayLogo7.png"/>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
-    </head>
-    <body>
+<html lang="en"
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Stingray Web Design</title>
+    <meta name="author" content="Stingray Web Designs" />
+    <meta
+      name="description"
+      content="Custom coded web design and web development"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="web development, website maker, website developer, small business usa, website maker near me, web developer near me, affordable websites, web design agency usa, custom websites usa, custom web developer usa, web design company usa"
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      property="og:title"
+      content="Small Business Web Design + Development"
+    />
+    <meta
+      property="og:description"
+      content="No page builders or WordPress - I offer 100% hand-coded websites with a mobile first design philosphy."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.stingraywebdesigns.com/" />
+    <meta property="og:image" content="" />
+    <link rel="canonical" href="https://www.stingraywebdesigns.com/" />
+    <link rel="icon" type="image/png" href="Photos/StingrayLogo7.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <img src="Photos/SWD logo - PNG file_v1 copy 5.png" alt="Stingray logo image">
+      <div class="logo">
+        <img
+          src="Photos/SWD logo - PNG file_v1 copy 5.png"
+          alt="Stingray logo image"
+        />
+      </div>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <nav class="desktop-menu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li id="home"><a href="index.html">Home</a></li>
+          <li id="about"><a href="about.html">About</a></li>
+          <li id="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="landing-section fluid-container">
+      <div class="landing-container">
+        <div class="feature-left">
+          <h1>
+            <span>Custom Coded</span> Web Design <span>+</span> Development
+          </h1>
+          <h2>
+            No page builders or WordPress - I offer 100% hand-coded websites
+            with a mobile first design philosphy.
+          </h2>
+          <button>GET IN TOUCH!</button>
         </div>
-        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-            <nav class="desktop-menu">
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="mobile-menu">
-                <li id="home"><a href="index.html">Home</a></li>
-                <li id="about"><a href="about.html" >About</a></li>
-                <li id="contact"><a href="contact.html">Contact</a></li>
-            </ul>
+        <img
+          class="img-right section-feature"
+          src="Photos/iphone3.png"
+          alt="Big iPhone displayed on home"
+        />
+      </div>
+    </section>
+    <section class="what-we-do-section">
+      <div class="what-we-do-title">
+        <h1>MY</h1>
+        <h2>SERVICES</h2>
+      </div>
+      <div class="what-we-do-title-content">
+        <div class="dash"></div>
+        <i class="fa-solid fa-laptop-code"></i>
+        <p>
+          My goal is to take care of everything website related, whether that be
+          with design, updates and maintenance, etc. so you can focus on your
+          business.
+        </p>
+      </div>
+    </section>
+    <section class="what-we-do-mini">
+      <div class="what-we-do-content">
+        <img src="Photos/icon-3.jpg" alt="Mobile first icon" />
+        <h3>Mobile-First Design</h3>
+        <p>
+          Over 60% of users worldwide use smartphones to access webpages, I go
+          after the largest userbase.
+        </p>
+      </div>
+      <div class="what-we-do-content">
+        <img src="Photos/icon-1.jpg" />
+        <h3>Fully Responsive</h3>
+        <p>
+          Your website will fit all mobile screens sizes, tablets, and desktop
+          sizes so new clients can access your site from anywhere.
+        </p>
+      </div>
+      <div class="what-we-do-content">
+        <img src="Photos/icon-2.jpg" />
+        <h3>Customizability</h3>
+        <p>
+          Every line of code is written by hand to ensure customizability, the
+          website you've imagined can become a reality.
+        </p>
+      </div>
+    </section>
+    <div class="business-model-title">
+      <div class="business-image">
+        <img src="Photos/pad.jpeg" />
+      </div>
+      <div class="business-bottom">
+        <h1><span>FREE </span>CONSULTATIONS</h1>
+        <p>
+          Consultations will always remain 100% free, reach out today for an
+          estimate! You own your domain and can cancel anytime with no fees or
+          hassle.
+        </p>
+      </div>
+    </div>
+    <section class="business-model-section fluid-container">
+      <div class="business-model-container">
+        <div class="business-model-list">
+          <div class="list-item-top">
+            <img src="Photos/check.jpg" />
+            <h1>Hosting Fees Included</h1>
+          </div>
+          <div class="list-item-bottom">
+            <p>Hosting fees are built right into the monthly service.</p>
+          </div>
+          <div class="list-item-top">
+            <img src="Photos/check.jpg" />
+            <h1>Customer Service 24/7</h1>
+          </div>
+          <div class="list-item-bottom">
+            <p>I'm available at just about any time, call or text.</p>
+          </div>
+          <div class="list-item-top">
+            <img src="Photos/check.jpg" />
+            <h1>Unlimited Edits</h1>
+          </div>
+          <div class="list-item-bottom">
+            <p>
+              Change anything you want at anytime and it will be done that day.
+            </p>
+          </div>
         </div>
-        </header>
-        <section class="landing-section fluid-container">
-            <div class="landing-container">
-              <div class="feature-left">
-                <h1><span>Custom Coded</span> Web Design <span>+</span> Development</h1>
-                <h2>No page builders or WordPress - I offer 100% hand-coded websites with a mobile first design philosphy.</h2>
-                <button>GET IN TOUCH!</button>
-              </div>
-              <img class="img-right section-feature" src="Photos/iphone3.png" alt="Big iPhone displayed on home">
-            </div>
-          </section>
-        <section class="what-we-do-section">
-            <div class="what-we-do-title">
-                <h1>MY</h1>
-                <h2>SERVICES</h2>
-            </div>
-            <div class="what-we-do-title-content">
-                <div class="dash"></div>
-                <i class="fa-solid fa-laptop-code"></i>
-                <p>My goal is to take care of everything website related, whether that be with design, updates and maintenance, etc. so you can focus on your business. </p>
-            </div>
-        </section>
-        <section class="what-we-do-mini">
-            <div class="what-we-do-content">
-                <img src="Photos/icon-3.jpg" alt="Mobile first icon">
-                <h3>Mobile-First Design</h3>
-                <p>Over 60% of users worldwide use smartphones to access webpages, I go after the largest userbase.</p>
-            </div>
-            <div class="what-we-do-content">
-                <img src="Photos/icon-1.jpg">
-                <h3>Fully Responsive</h3>
-                <p>Your website will fit all mobile screens sizes, tablets, and desktop sizes so new clients can access your site from anywhere.</p>
-            </div>
-            <div class="what-we-do-content">
-                <img src="Photos/icon-2.jpg">
-                <h3>Customizability</h3>
-                <p>Every line of code is written by hand to ensure customizability, the website you've imagined can become a reality.</p>
-            </div>
-        </section>
-        <div class="business-model-title">
-            <div class="business-image">
-                <img src="Photos/pad.jpeg">
-            </div>
-            <div class="business-bottom">
-                <h1><span>FREE </span>CONSULTATIONS</h1>
-                <p>Consultations will always remain 100% free, reach out today for an estimate! 
-                    You own your domain and can cancel anytime with no fees or hassle.</p>
-            </div>
+      </div>
+    </section>
+    <section class="my-portfolio">
+      <div class="portfolio-title"></div>
+      <div class="portfolio-card">
+        <h1>Advanced Fitness</h1>
+        <img src="Photos/mac.jpeg" />
+      </div>
+      <div class="card-break"></div>
+      <div class="portfolio-card">
+        <h1>Bates Lawncare and Landscaping</h1>
+        <img src="Photos/mac.jpeg" />
+      </div>
+      <div class="card-break"></div>
+      <div class="portfolio-card">
+        <h1>Backwoods Landscaping</h1>
+        <img src="Photos/mac.jpeg" />
+      </div>
+    </section>
+    <section class="for-you-section">
+      <div class="for-you-title">
+        <h1>THIS IS <span>YOUR </span>WEBSITE</h1>
+      </div>
+      <div class="for-you-content">
+        <p>
+          I take care of everything so you don't have to! You don't have to host
+          the website, deal with any potential issues that may arise, or routine
+          maintenance as I do all of it for you.
+        </p>
+      </div>
+      <section class="what-we-do-mini">
+        <div class="what-we-do-content">
+          <img src="Photos/1.jpg" />
+          <h3>Discuss Design</h3>
+          <p>
+            It's essential that we go over the websites design and intended
+            purpose.
+          </p>
         </div>
-            <div class="business-model-list">
-                <div class="list-item-top">
-                    <img src="Photos/check.jpg">
-                    <h1>Hosting Fees Included</h1>
-                </div>
-                <div class="list-item-bottom">
-                    <p>Hosting fees are built right into the monthly service.</p>
-                </div>
-                <div class="list-item-top">
-                    <img src="Photos/check.jpg">
-                    <h1>Customer Service 24/7</h1>
-                </div>
-                <div class="list-item-bottom">
-                    <p>I'm avaiable at just about any time, call or text. </p>
-                </div>
-                <div class="list-item-top">
-                    <img src="Photos/check.jpg">
-                    <h1>Unlimited Edits</h1>
-                </div>
-                <div class="list-item-bottom">
-                    <p>Change anything you want at anytime and it will be done that day.</p>
-                </div>
-            </div>
-        </section>
-        <section class="my-portfolio">
-            <div class="portfolio-title">
-            </div>
-            <div class="portfolio-card">
-                <h1>Advanced Fitness</h1>
-                <img src="Photos/mac.jpeg">
-            </div>
-            <div class="card-break"></div>
-            <div class="portfolio-card">
-                <h1>Bates Lawncare and Landscaping</h1>
-                <img src="Photos/mac.jpeg">
-            </div>
-            <div class="card-break"></div>
-            <div class="portfolio-card">
-                <h1>Backwoods Landscaping</h1>
-                <img src="Photos/mac.jpeg">
-            </div>
-        </section>
-        <section class="for-you-section">
-            <div class="for-you-title">
-                <h1>THIS IS <span>YOUR </span>WEBSITE</h1>
-            </div>
-            <div class="for-you-content">
-                <p>I take care of everything so you don't have to! You don't have to host the website, deal with any potential issues that may arise, or routine maintenance as I do all of it for you.</p>
-            </div>
-            <section class="what-we-do-mini">
-                <div class="what-we-do-content">
-                    <img src="Photos/1.jpg">
-                    <h3>Discuss Design</h3>
-                    <p>It's essential that we go over the websites design and intended purpose.</p>
-                </div>
-                <div class="what-we-do-content">
-                    <img src="Photos/2.jpg">
-                    <h3>Research Websites</h3>
-                    <p>Your website will fit all mobile screens sizes, tablets, and desktop sizes so new clients can access your site from anywhere.</p>
-                </div>
-                <div class="what-we-do-content">
-                    <img src="Photos/3.jpg">
-                    <h3>Customizability</h3>
-                    <p>Every line of code is written by hand to ensure customizability, the website you've imagined can become a reality.</p>
-                </div>
-            </section>
-        </section>
-                    <section class="footer-section">
-                <div class="footer">
-                    <h1>Stingray Web Designs</h1>
-                    <a href="https://www.facebook.com/profile.php?id=100087589502743&mibextid=LQQJ4d">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <p>© STINGRAY WEB DESIGNS 2023. ALL RIGHT RESERVED. ® STINGRAY WEB DESIGNS IS A REGISTERED TRADEMARK</p>
-                </div>
-            </section>
-        <script src="javascript.js" async defer></script>
+        <div class="what-we-do-content">
+          <img src="Photos/2.jpg" />
+          <h3>Research Websites</h3>
+          <p>
+            Your website will fit all mobile screens sizes, tablets, and desktop
+            sizes so new clients can access your site from anywhere.
+          </p>
+        </div>
+        <div class="what-we-do-content">
+          <img src="Photos/3.jpg" />
+          <h3>Customizability</h3>
+          <p>
+            Every line of code is written by hand to ensure customizability, the
+            website you've imagined can become a reality.
+          </p>
+        </div>
+      </section>
+    </section>
+    <section class="footer-section">
+      <div class="footer">
+        <h1>Stingray Web Designs</h1>
+        <a
+          href="https://www.facebook.com/profile.php?id=100087589502743&mibextid=LQQJ4d"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <p>
+          © STINGRAY WEB DESIGNS 2023. ALL RIGHT RESERVED. ® STINGRAY WEB
+          DESIGNS IS A REGISTERED TRADEMARK
+        </p>
+      </div>
+    </section>
+    <script src="javascript.js" async defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js"
+      defer
+    ></script>
+  </body>
+</html>
+  <script src="javascript.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+    </body>
+</html> <script src="javascript.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+    </body>
+</html><script src="javascript.js" async defer></script>
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
     </body>
 </html>
