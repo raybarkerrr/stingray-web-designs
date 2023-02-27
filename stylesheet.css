@@ -223,6 +223,8 @@ header nav {
     padding-top: 1em;
   }
 
+
+
   .what-we-do-content img{
     width: 30%;
   }
@@ -234,9 +236,7 @@ header nav {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding: 2% 6% 2% 6%;
+    padding: 4% 6% 4% 6%;
    }
 
    .what-we-do-content{
@@ -687,9 +687,22 @@ header nav {
 
   .for-you-content{
     text-align: center;
-    padding: 1% 30% 1% 30%;
+    padding: 1% 25% 1% 25%;
 
   }
 
+   /* What We Do Section */
+
+  .what-we-do-content img{
+    width: 20%;
+  }
+
+  .what-we-do-mini{
+    padding: 8% 10% 8% 10%;
+   }
+
+  .what-we-do-content p{
+    padding: 0% 10% 0% 10%;
+  }
   
   }
