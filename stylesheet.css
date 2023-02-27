@@ -298,6 +298,8 @@ header nav {
     padding: 2% 6% 2% 6%;    
   }
 
+  
+
   .list-item-top{
     display: flex;
     padding-bottom: 1rem;
@@ -311,7 +313,6 @@ header nav {
 
   .list-item-bottom{
     padding-left: 2.4rem;
-    padding-bottom: 3rem;
     font-family: 'Lato', sans-serif;
   }
 
@@ -626,6 +627,40 @@ header nav {
 
 .business-bottom p{
   font-size: 17.6px;
+}
+
+/* List Sub-Section */
+
+.business-model-list{
+  display: grid;
+  grid-template-columns: 50% 1fr; 
+  gap: 1rem; 
+  align-items: center; 
+  }
+
+.business-model-list img{
+  width: 4%;
+}
+
+.list-item-top{
+  display: flex;
+  align-items: flex-end;
+  padding-left: 10.5em;
+}
+
+.list-item-top h1{
+  font-size: 1.8rem;
+  padding-left: .3rem;
+}
+
+.list-item-bottom{
+  padding-left: 2.4rem;
+  font-family: 'Lato', sans-serif;
+  padding-left: 6.5em;
+}
+
+.list-item-bottom{
+  font-size: 1.2rem;
 }
 
 
