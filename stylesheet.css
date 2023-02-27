@@ -316,8 +316,10 @@ header nav {
   }
 
   .business-model-list{
-    flex-direction: row;
-    padding-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 50% 1fr; 
+  gap: 1rem; 
+  align-items: center; 
   }
 
   .business-model-list img{
