@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -190,6 +191,8 @@ header nav {
   .what-we-do-section{
     padding-top: 6rem;
     padding-bottom: 4rem;
+    background-color: rgba(12, 181, 239, 1);
+
   }
 
   .what-we-do-title{
@@ -203,7 +206,11 @@ header nav {
 
   .what-we-do-title h1{
     margin-right: 10px;
-    color: rgba(12, 181, 239, 1);
+    color: white;
+  }
+
+  .fa-laptop-code{
+    color: white;
   }
 
   .what-we-do-title-content{
@@ -221,8 +228,6 @@ header nav {
     line-height: 1.7em;
     padding-top: 1em;
   }
-
-
 
   .what-we-do-content img{
     width: 30%;
@@ -287,20 +292,18 @@ header nav {
     color: #0092ca;
   }
 
-  .business-model-check{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding: 2% 6% 2% 6%;    
+  .business-bottom {
+    padding: 2% 7% 2% 7%;    
   }
 
   
+  .list-item{
+    padding-bottom: 3rem;
+  }
 
   .list-item-top{
     display: flex;
+    padding-left: 1.4rem;
     padding-bottom: 1rem;
   }
 
@@ -311,7 +314,7 @@ header nav {
   }
 
   .list-item-bottom{
-    padding-left: 2.4rem;
+    padding-left: 2rem;
     font-family: 'Lato', sans-serif;
   }
 
@@ -392,17 +395,27 @@ header nav {
     flex-direction: column;
   }
 
+  .for-you-title h1{
+    padding-top: 3rem;
+  }
+
   .for-you-content p{
     padding-top: 1rem;
     font-family: 'Ubuntu';
-    padding-top: 1.5rem;
     font-size: 1.2em;
     line-height: 1.5em;
+    padding-bottom: 2rem;
   }
 
   .for-you-title{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    background-color: #f1f1f1;
+    padding: 2% 7% 2% 7%;    
+  }
+
+  .for-you-content{
+    background-color: #f1f1f1;
   }
 
   .for-you-title span{
@@ -627,6 +640,7 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 4rem;
 }
 
 .business-image img {
@@ -638,16 +652,17 @@ header nav {
     text-align: center;
 }
 
-.business-bottom{
-  padding-right: 100px;
-}
-
 .business-bottom h1{
   font-size: 40px;
 }
 
 .business-bottom p{
   font-size: 17.6px;
+}
+
+.business-bottom{
+  padding: 2% 10% 2% 10%;    
+
 }
 
 /* About Section */
@@ -695,18 +710,21 @@ font-size: 17.6px;
 .list-item-top{
   display: flex;
   align-items: flex-end;
-  padding-left: 10.5em;
+  padding-left: 7.7em;
 }
 
 .list-item-top h1{
   font-size: 1.8rem;
-  padding-left: .3rem;
+}
+
+.list-item-top img{
+  width: 7%;
 }
 
 .list-item-bottom{
-  padding-left: 2.4rem;
   font-family: 'Lato', sans-serif;
   padding-left: 6.5em;
+  padding-right: 4rem;
 }
 
 .list-item-bottom{
@@ -785,6 +803,17 @@ font-size: 17.6px;
       color: white;
       cursor: pointer;
     }
+
+    /* Contact Section */
+
+    .contact-image img{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  
   
   
   }
