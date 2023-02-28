@@ -187,6 +187,7 @@ header nav {
       padding: .8em;
       background-color: rgba(12, 181, 239, 1);
       cursor: pointer;
+      color: black;
   }
 
   .img-right{
