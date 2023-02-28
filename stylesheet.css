@@ -328,6 +328,29 @@ header nav {
     font-size: 1.2rem;
   }
 
+  /* About Section */
+
+  .about-image img{
+    width: 320px;
+  }
+
+  .about-me h1{
+    font-size: 1.3em;
+  }
+
+  .about-me p{
+    font-family: 'Ubuntu';
+    padding-top: 1.5rem;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .about-me span{
+    color: #0092ca;
+  }
+  
+
   /* My Portfolio Section */
 
   .my-portfolio{
@@ -476,28 +499,6 @@ header nav {
       color: white;
       cursor: pointer;
     }
-
-      /* About Me Section */
-
-  .about-me{
-    padding: 5% 0% 10% 0%;
-  }
-
-  .about-me h1{
-    font-size: 2rem;
-    padding: 0% 0% 0% 6%;
-  }
-
-  .about-me span{
-    color:#0092ca;
-  }
-
-  .about-me p{
-    font-size: 20px;
-    color: #646464;
-    font-family: 'Lato', sans-serif;
-    padding: 5% 6% 10% 6%;
-  }
 
       /* Footer Section */
 
@@ -648,6 +649,35 @@ header nav {
   font-size: 17.6px;
 }
 
+/* About Section */
+
+.about-image img{
+  width: 250px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.about-me h1 {
+  text-align: center;
+}
+
+.about-bottom{
+padding-right: 100px;
+}
+
+.about-bottom h1{
+font-size: 40px;
+}
+
+.about-bottom p{
+font-size: 17.6px;
+}
+
 /* List Sub-Section */
 
 .business-model-list{
@@ -721,24 +751,6 @@ header nav {
 
   .what-we-do-content p{
     padding: 0% 10% 0% 10%;
-  }
-
-  /* About Me Section */
-
-  .about-me{
-    width: 600px;
-  }
-    
-  .about-me h1{
-    font-size: 3rem;
-    padding: 0% 0% 0% 6%;
-  }
-      
-  .about-me p{
-    font-size: 20px;
-    color: #646464;
-    font-family: 'Lato', sans-serif;
-    padding: 5% 6% 10% 6%;
   }
   
   }
