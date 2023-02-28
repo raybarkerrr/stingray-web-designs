@@ -334,11 +334,15 @@ header nav {
   /* About Section */
 
   .about-image img{
-    width: 320px;
+    width: 280px;
+  }
+  
+  .about-me{
+    padding: 7% 6% 2% 6%;  
   }
 
   .about-me h1{
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   .about-me p{
@@ -431,7 +435,7 @@ header nav {
   .contact-info{
     display: flex;
     align-items: center;
-    padding: 2% 7% 2% 7%;    
+    padding: 2% 5% 2% 5%;    
   }
 
   .contact-info img{
@@ -468,10 +472,6 @@ header nav {
       font-weight: lighter;
       letter-spacing: .1rem;
       color: #57595B;
-    }
-
-    .bingle img{
-      width: 300px;
     }
   
     .form-labels{
@@ -552,7 +552,7 @@ header nav {
   }
 
   .line{
-    width: 5px ;
+    width: 5px;
     height: 43px;
     background-color: #0092ca;
   }
