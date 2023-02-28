@@ -168,6 +168,10 @@ header nav {
     padding-left: 12px;
   }
 
+  .feature-left span{
+    color: rgba(12, 181, 239, 1);
+  }
+
   .feature-left h1{
     font-size: 30px;
   }
@@ -183,7 +187,7 @@ header nav {
   }
 
   .img-right{
-    width: 80%;
+    width: 90%;
   }
 
   /* What We Do Section */
@@ -329,6 +333,7 @@ header nav {
 
   .list-item-bottom{
     font-size: 1.2rem;
+    padding-right: 1rem;
   }
 
   /* About Section */
