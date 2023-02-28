@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+a{
+  all: unset;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-family: 'Rajdhani', sans-serif;
@@ -182,7 +186,6 @@ header nav {
       border: 0;
       padding: .8em;
       background-color: rgba(12, 181, 239, 1);
-      color: white;
       cursor: pointer;
   }
 
@@ -605,13 +608,13 @@ header nav {
   }
 
   .feature-left button{
-      width: 5em;
       width: 25%;
       border-radius: 8px;
       border: 0;
       padding: .8em;
+      font-size: 15px;
       background-color: rgba(12, 181, 239, 1);
-      color: white;
+      color: black;
       cursor: pointer;
   }
 
@@ -817,6 +820,10 @@ font-size: 17.6px;
       align-items: center;
       justify-content: center;
       
+    }
+
+    .contact-info{
+      padding: 1% 5% 1% 5%;    
     }
   
   
