@@ -473,6 +473,7 @@ header nav {
   
     .input-field{
       width: 80%;
+      height: 50px;
       border-radius: 8px;
       border: 1px solid #ccc;
       padding: .9em;
@@ -481,7 +482,7 @@ header nav {
   
     .input-field-message{
       width: 80%;
-      height: 150px;
+      height: 200px;
       border-radius: 8px;
       resize: none;
       border: 1px solid #ccc;
@@ -752,5 +753,38 @@ font-size: 17.6px;
   .what-we-do-content p{
     padding: 0% 10% 0% 10%;
   }
+
+  /* Input Field Section */
+
+      .input-field{
+      width: 35%;
+      height: 50px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      padding: .9em;
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    }
+  
+    .input-field-message{
+      width: 35%;
+      height: 220px;
+      border-radius: 8px;
+      resize: none;
+      border: 1px solid #ccc;
+      padding: .8em;
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    }
+
+    .form-button{
+      width: 9%;
+      border-radius: 8px;
+      border: 0;
+      padding: .8em;
+      font-size: 17px;
+      background-color: rgba(12, 181, 239, 1);
+      color: white;
+      cursor: pointer;
+    }
+  
   
   }
