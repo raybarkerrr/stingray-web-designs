@@ -160,7 +160,6 @@ header nav {
     padding-bottom: 20px;
     color: #646464;
     font-family: 'Lato', sans-serif;
-
   }
 
   .feature-left {
@@ -409,8 +408,6 @@ header nav {
     font-family: 'Lato', sans-serif;
   }
 
-    /* Contact Page */
-
     .contact-form-section{
       text-align: center;
       padding-top: 2rem;
@@ -480,6 +477,28 @@ header nav {
       cursor: pointer;
     }
 
+      /* About Me Section */
+
+  .about-me{
+    padding: 5% 0% 10% 0%;
+  }
+
+  .about-me h1{
+    font-size: 2rem;
+    padding: 0% 0% 0% 6%;
+  }
+
+  .about-me span{
+    color:#0092ca;
+  }
+
+  .about-me p{
+    font-size: 20px;
+    color: #646464;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 6% 10% 6%;
+  }
+
       /* Footer Section */
 
   .footer-section{
@@ -491,7 +510,7 @@ header nav {
   }
 
   .footer h1{
-    font-size: 1.5rem;
+    font-size: 20px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     color: #e0e0e0;
@@ -522,7 +541,6 @@ header nav {
     height: 43px;
     background-color: #0092ca;
   }
-
 
   @media only screen and (min-width: 1024px)  {
 
@@ -703,6 +721,24 @@ header nav {
 
   .what-we-do-content p{
     padding: 0% 10% 0% 10%;
+  }
+
+  /* About Me Section */
+
+  .about-me{
+    width: 600px;
+  }
+    
+  .about-me h1{
+    font-size: 3rem;
+    padding: 0% 0% 0% 6%;
+  }
+      
+  .about-me p{
+    font-size: 20px;
+    color: #646464;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 6% 10% 6%;
   }
   
   }
