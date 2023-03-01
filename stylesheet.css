@@ -369,10 +369,14 @@ header nav {
 
   /* My Portfolio Section */
 
+  .portfolio-section{
+    padding: 15% 0% 15% 0%;  
+  }
+
   .my-portfolio{
     display: flex;
     flex-direction: column;
-    padding: 15% 6% 15% 6%;  
+    padding: 3% 6% 3% 6%;  
   }
   
   .card-break{
@@ -381,7 +385,8 @@ header nav {
 
   .portfolio-title{
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 3.5rem;
+    font-size: 25px;
   }
 
 
