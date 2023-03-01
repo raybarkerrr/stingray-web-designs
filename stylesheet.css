@@ -427,9 +427,9 @@ header nav {
 
   .for-you-title{
     display: flex;
-    justify-content: left;
     background-color: #f1f1f1;
     padding: 2% 7% 2% 7%;    
+    justify-content: center;
   }
 
   .for-you-content{
@@ -441,7 +441,15 @@ header nav {
   }
 
   .for-you-content{
-    padding: 2% 7% 2% 7%;    
+    padding: 2% 7% 2% 7%;   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fa-user{
+    display: flex;
+    justify-content: center;
   }
 
 /* Contact Section */
