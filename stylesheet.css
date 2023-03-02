@@ -31,14 +31,96 @@ header {
   justify-content: space-between;
   width: 100%;
   overflow: hidden;
-  padding: 0% 6% 0% 6%;
 }
 
 .logo img{
     width: 75px;
 }
 
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Lato', sans-serif;
+}
 
+ul a {
+  color: white;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#home,
+#about,
+#contact {
+  border-radius: 5px;
+  padding: 5px 8px;
+  padding-left: 1.8em;
+}
+
+#about a {
+  color: black;
+}
+
+#home a {
+  color: black;
+}
+
+#contact a {
+  color: black;
+}
+
+.menuToggle {
+  margin: auto 0;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1.6em;
+  display:none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+ .mobile-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+.fa-bars{
+  color: white;
+}
 
       /* Home Container Section */
 
@@ -92,18 +174,6 @@ header {
       background-color: rgba(12, 181, 239, 1);
       cursor: pointer;
       color: black;
-      cursor: pointer;
-  }
-
-    .feature-left button{
-    transform-style: preserve-3d;
-    border-radius: 30px;
-    overflow: hidden;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .feature-left button:hover {
-    transform: rotateY(-1deg) rotateX(10deg) scale(1.1);
   }
 
   .img-right{
@@ -323,7 +393,6 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    cursor: pointer;
   }
 
   .portfolio-card h1{
@@ -333,17 +402,6 @@ header {
 
   .portfolio-title span{
     color:#0092ca;
-  }
-
-  .portfolio-card{
-    transform-style: preserve-3d;
-    border-radius: 30px;
-    overflow: hidden;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .portfolio-card:hover {
-    transform: rotateY(-1deg) rotateX(10deg) scale(1.1);
   }
 
   /* For You Section */
@@ -519,102 +577,9 @@ header {
     background-color: #0092ca;
   }
 
-  /* Media Query 1024px */
-
   @media only screen and (min-width: 1024px)  {
-    ul {
-      list-style: none;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      font-family: 'Lato', sans-serif;
-    }
-    
-    ul a {
-      color: white;
-    }
-    
-    ul li:hover {
-      transform: scale(1.1);
-      transition: 0.3s;
-    }
-    
-    #home,
-    #about,
-    #contact {
-      border-radius: 5px;
-      padding: 5px 8px;
-      padding-left: 1.8em;
-    }
-    
-    #about a {
-      color: black;
-    }
-    
-    #home a {
-      color: black;
-    }
-    
-    #contact a {
-      color: black;
-    }
-  }
 
-  @media only screen and (max-width: 980px)  {
-    #hamburger-icon {
-      margin: auto 0;
-      cursor: pointer;
-      font-size: 20px;
-      line-height: 1.6em;
-    }
     
-    #hamburger-icon div {
-      width: 35px;
-      height: 3px;
-      background-color: white;
-      margin: 6px 0;
-      transition: 0.4s;
-    }
-    
-    .open .bar1 {
-      -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-      transform: rotate(-45deg) translate(-6px, 6px);
-    }
-    
-    .open .bar2 {
-      opacity: 0;
-    }
-    
-    .open .bar3 {
-      -webkit-transform: rotate(45deg) translate(-6px, -8px);
-      transform: rotate(45deg) translate(-6px, -8px);
-    }
-    
-    .open .mobile-menu {
-      display: flex;
-      align-items: flex-start;
-      flex-direction: column;
-      justify-content: flex-start;
-      padding-top: 1rem;
-    }
-    
-    .mobile-menu {
-      display: none;
-      position: absolute;
-      top: 70px;
-      z-index:1;
-      left: 0;
-      height: 60vh;
-      width: 100%;
-      background-color: rgba(12, 181, 239, 1);
-    }
-    
-    .mobile-menu li {
-      margin-bottom: 10px;
-    }
-
-
 
     /* Home Container Section */
 
@@ -875,4 +840,31 @@ font-size: 17.6px;
   
   
   
+  }
+  
+  @media screen and (max-width:600px){
+    .menuToggle{
+        display:block;
+        visibility: visible;
+        opacity: 1;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+    }
+
+    .mobile-menu{
+        display:none;
+    }
+    
+    .mobileMenu.open .mobile-menu {
+        position: absolute;
+        top: 70px;
+        z-index:1;
+        left: 0;
+        height: 60vh;
+        width: 100%;
+        background-color: rgba(12, 181, 239, 1);
+        display:block;
+      }
+
   }

@@ -14,13 +14,14 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.stingraywebdesigns.com/">
         <meta property="og:image" content="">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="width=device-width, initial-scale=1" name ="viewport"/>
         <link rel="canonical" href="https://www.stingraywebdesigns.com/">
         <link rel="icon" type="image/png" href="Photos/stingraywhite.png"/>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -28,15 +29,17 @@
         <div class="logo">
             <img src="Photos/stingraywhite.png" alt="Stingray logo image">
         </div>
-        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+       
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
+            <div class = "mobileMenu">
             <ul class="mobile-menu">
                 <li id="home"><a href="index.html">Home</a></li>
                 <li id="about"><a href="about.html" >About</a></li>
                 <li id="contact"><a href="contact.html">Contact</a></li>
             </ul>
+            <div class = "menuToggle"><i class="fa-solid fa-bars"></i></div>
         </div>
         </header>
         <section class="landing-section fluid-container">
@@ -184,5 +187,13 @@
             </section>
         <script src="javascript.js" async defer></script>
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+
+        <script>
+             let mobileMenu = document.querySelector('.mobileMenu');
+             let menuToggle = document.querySelector('.menuToggle');
+             menuToggle.onclick = function() {
+                mobileMenu.classList.toggle('open');
+            }
+        </script>
     </body>
 </html>
