@@ -43,7 +43,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 ul a {
@@ -61,18 +61,19 @@ ul li:hover {
   border-radius: 5px;
   padding: 5px 8px;
   padding-left: 1.8em;
+  
 }
 
 #about a {
-  color: black;
+  color: white;
 }
 
 #home a {
-  color: black;
+  color: white;
 }
 
 #contact a {
-  color: black;
+  color: white;
 }
 
 .menuToggle {
@@ -93,25 +94,13 @@ ul li:hover {
   transition: 0.4s;
 }
 
-.open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.open .bar2 {
-  opacity: 0;
-}
-
-.open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -8px);
-  transform: rotate(45deg) translate(-6px, -8px);
-}
-
  .mobile-menu {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   padding-top: 1rem;
+  padding-right: 3rem;
+  cursor: pointer;
 }
 
 .mobile-menu li {
@@ -174,6 +163,19 @@ ul li:hover {
       background-color: rgba(12, 181, 239, 1);
       cursor: pointer;
       color: black;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transform-style: preserve-3d;
+      transform: rotateY(-5deg) rotateX(10deg) scale(1.0);
+      border-radius: 30px;
+      overflow: hidden;
+      transition: transform 0.5s ease-in-out;
+  }
+
+  .feature-left button:hover {
+    transform: rotateY(-5deg) rotateX(10deg) scale(1.1);
   }
 
   .img-right{
@@ -393,6 +395,15 @@ ul li:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    transform-style: preserve-3d;
+    transform: rotateY(-5deg) rotateX(10deg) scale(1.0);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .portfolio-card:hover {
+    transform: rotateY(-5deg) rotateX(10deg) scale(1.1);
   }
 
   .portfolio-card h1{
@@ -403,6 +414,7 @@ ul li:hover {
   .portfolio-title span{
     color:#0092ca;
   }
+
 
   /* For You Section */
 
