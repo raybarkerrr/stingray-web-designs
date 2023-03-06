@@ -880,7 +880,7 @@ font-size: 17.6px;
         top: 70px;
         z-index:1;
         left: 0;
-        height: 40vh;
+        height: 45vh;
         width: 100%;
         background-color: rgba(12, 181, 239, 1);
         display:block;
@@ -889,7 +889,6 @@ font-size: 17.6px;
       .feature-left button{
         width: 80%;
         border-radius: 8px;
-
     }
 
   }
