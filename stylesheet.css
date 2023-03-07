@@ -900,32 +900,10 @@ font-size: 17.6px;
 
   @media screen and (min-width:380px){
       
-    .menuToggle{
-      display:block;
-      visibility: visible;
-      opacity: 1;
-      position: absolute;
-      top: 1em;
-      right: 1em;
-  }
 
-  .mobile-menu{
-      display:none;
-  }
-  
-  .mobileMenu.open .mobile-menu {
-      position: absolute;
-      top: 70px;
-      z-index:1;
-      left: 0;
-      height: 30vh;
-      width: 100%;
-      background-color: rgba(12, 181, 239, 1);
-      display:block;
-    }
 
     .feature-left button{
-      width: 60%;
+      width: 20%;
       border-radius: 8px;
   }
 
