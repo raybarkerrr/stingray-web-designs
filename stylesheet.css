@@ -50,11 +50,6 @@ ul a {
   color: white;
 }
 
-ul li:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
 #home,
 #about,
 #contact {
